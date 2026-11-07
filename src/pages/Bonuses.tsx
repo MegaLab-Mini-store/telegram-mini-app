@@ -129,7 +129,7 @@ export default function Bonuses() {
           return (
             <div
               key={tx.id}
-              className="bg-linear-to-b from-[#2c2a45] to-[#1a1a2e] rounded-2xl p-4 border border-[#3b3c5a] shadow-lg"
+              className="bg-linear-to-br from-[#232f44] to-[#1a2233] rounded-2xl p-4 border border-[#3b3c5a] shadow-lg"
             >
               <div className="text-gray-400 text-sm mb-2">
                 {formatDate(tx.created_at)}
