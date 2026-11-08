@@ -93,7 +93,7 @@ export default function History() {
 
 
   return (
-    <div className="p-5 flex flex-col h-full bg-[#141A22]">
+    <div className="p-5 flex flex-col min-h-full bg-[#141A22]">
       <header className="mb-5 mt-2">
         <h1 className="text-3xl font-bold">Мои покупки</h1>
       </header>

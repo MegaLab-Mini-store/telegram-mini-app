@@ -55,7 +55,7 @@ export default function Dashboard() {
 
 
   return (
-    <div className="p-5 flex flex-col h-full">
+    <div className="p-5 flex flex-col min-h-full">
       <header className='flex justify-between items-center mb-6 mt-2'>
         <h1 className='text-2xl font-bold leading-tight'>
           Привет, <br />{displayName}!
@@ -77,7 +77,7 @@ export default function Dashboard() {
       </div>
 
 
-      <div className="flex flex-col items-center flex-1 justify-center relative">
+      <div className="flex flex-col items-center flex-1 justify-center relative py-6">
         {/* декоративное свечение за кодом */}
         <div className="absolute w-60 h-60 bg-[#2AABEE] opacity-20 rounded-full blur-2xl"></div>
 

@@ -42,7 +42,7 @@ export default function Profile() {
 
 
   return (
-    <div className="p-5 flex flex-col h-full bg-[#141A22]">
+    <div className="p-5 flex flex-col min-h-full bg-[#141A22]">
       <header className="mb-6 mt-2">
         <h1 className="text-3xl font-bold">Привязка карты</h1>
       </header>
