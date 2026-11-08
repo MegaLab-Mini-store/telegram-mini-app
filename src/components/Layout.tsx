@@ -15,11 +15,11 @@ export default function Layout() {
 
   return (
     <div className="flex flex-col h-screen bg-[#17212B] text-white font-sans">
-      <main className="flex-1 overflow-y-auto pb-20">
+      <main className="flex-1 overflow-y-auto">
         <Outlet />
       </main>
 
-      <nav className="fixed bottom-0 w-full bg-[#1C2533] border-t border-[#2A394A] flex justify-around py-3 px-2 pb-6">
+      <nav className="w-full bg-[#1C2533] border-t border-[#2A394A] flex justify-around py-3 px-2 pb-6 shrink-0">
         {navItems.map((item) => {
           const isActive = location.pathname === item.path;
 
